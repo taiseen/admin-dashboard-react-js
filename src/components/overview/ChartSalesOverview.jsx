@@ -28,12 +28,15 @@ const ChartSalesOverview = () => {
             <h2 className='text-lg font-medium mb-4 text-gray-100'>Sales Overview</h2>
 
             <div className='h-80'>
+
                 <ResponsiveContainer width={"100%"} height={"100%"}>
 
                     <LineChart data={salesData}>
 
                         <CartesianGrid strokeDasharray='3 3' stroke='#4B5563' />
+
                         <XAxis dataKey={"name"} stroke='#9ca3af' />
+
                         <YAxis stroke='#9ca3af' />
 
                         <Tooltip
@@ -53,7 +56,9 @@ const ChartSalesOverview = () => {
                             dot={{ fill: "#6366F1", strokeWidth: 2, r: 6 }}
                         />
                     </LineChart>
+
                 </ResponsiveContainer>
+                
             </div>
         </motion.div>
     );

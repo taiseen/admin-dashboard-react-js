@@ -38,9 +38,11 @@ const ChartCategoryDistribution = () => {
                             dataKey='value'
                             label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
                         >
-                            {categoryData.map((_, index) => (
-                                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                            ))}
+                            {
+                                categoryData.map((_, index) => (
+                                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                                ))
+                            }
                         </Pie>
 
                         <Tooltip
@@ -54,7 +56,9 @@ const ChartCategoryDistribution = () => {
                         <Legend />
 
                     </PieChart>
+
                 </ResponsiveContainer>
+
             </div>
         </motion.div>
     )
