@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.customScrollbar {
+    &::-webkit-scrollbar {
+        @apply w-2 h-2;
+    }
+
+    &::-webkit-scrollbar-track {
+        @apply rounded-sm bg-slate-700 !important
+    }
+
+    &::-webkit-scrollbar-thumb {
+        @apply rounded-sm bg-slate-500 !important
+    }
+
+    &::-webkit-scrollbar-thumb:hover,
+    &::-webkit-scrollbar-thumb:active {
+        @apply hover:bg-slate-400 duration-300 cursor-move !important
+    }
+
+    &::-webkit-scrollbar-corner {
+        @apply bg-slate-700 !important;
+    }
+}

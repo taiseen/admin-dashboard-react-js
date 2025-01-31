@@ -2,9 +2,27 @@
 
 # Admin Dashboard | React Js
 
-. yarn create vite . --template react
+```bash
+yarn dev
+```
 
 ## Dependence:-
 
+- yarn create vite . --template react
 - yarn add -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
+
+- --------------------------------
+
+- yarn add react-router-dom
+- yarn add framer-motion
+- yarn add lucide-react
+- yarn add recharts
+
+## Learning Context:-
+
+- Gradient Background
+- Layout System
+- Sidebar Animation
+- Chart Rendering
+- FramerMotion Animation
