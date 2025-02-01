@@ -1,4 +1,4 @@
-import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react";
+import { AlertTriangle, BarChart2, DollarSign, Package, ShoppingBag, TrendingUp, Users, Zap } from "lucide-react";
 
 export const overviewPageTopCart = [
     {
@@ -26,3 +26,38 @@ export const overviewPageTopCart = [
         color: '#10B981',
     },
 ];
+
+export const productsPageTopCart = [
+    {
+        name: 'Total Products',
+        icon: Package,
+        value: 1234,
+        color: '#6366F1',
+    },
+    {
+        name: 'Top Selling',
+        icon: TrendingUp,
+        value: 89,
+        color: '#10B981',
+    },
+    {
+        name: 'Low Stock',
+        icon: AlertTriangle,
+        value: 23,
+        color: '#F59E0B',
+    },
+    {
+        name: 'Total Revenue',
+        icon: DollarSign,
+        value: "$543,210",
+        color: '#EF4444',
+    },
+];
+
+// export const productsPageTopCart = []
+// export const productsPageTopCart = []
+// export const productsPageTopCart = []
+// export const productsPageTopCart = []
+// export const productsPageTopCart = []
+// export const productsPageTopCart = []
+// export const productsPageTopCart = []
