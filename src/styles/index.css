@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 
 .customScrollbar {
@@ -9,19 +7,19 @@
     }
 
     &::-webkit-scrollbar-track {
-        @apply rounded-sm bg-slate-700 !important
+        @apply rounded-xs! bg-slate-700!
     }
 
     &::-webkit-scrollbar-thumb {
-        @apply rounded-sm bg-slate-500 !important
+        @apply rounded-xs! bg-slate-500!
     }
 
     &::-webkit-scrollbar-thumb:hover,
     &::-webkit-scrollbar-thumb:active {
-        @apply hover:bg-slate-400 duration-300 cursor-move !important
+        @apply hover:bg-slate-400! duration-300! cursor-move!
     }
 
     &::-webkit-scrollbar-corner {
-        @apply bg-slate-700 !important;
+        @apply bg-slate-700!;
     }
 }

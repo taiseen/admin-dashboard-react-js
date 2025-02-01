@@ -12,7 +12,7 @@ const Sidebar = () => {
         <motion.div
             // ${isSidebarOpen ? "w-72" : "w-28"}
             animate={{ width: isSidebarOpen ? 220 : 80 }}
-            className={`relative z-10 transition-all duration-300 ease-in-out flex-shrink-0`}
+            className={`relative z-10 transition-all duration-300 ease-in-out shrink-0`}
         >
             <div className='h-full bg-gray-800 bg-opacity-50 backdrop-blur-md p-4 flex flex-col border-r border-gray-700'>
 
@@ -26,7 +26,7 @@ const Sidebar = () => {
                 </motion.button>
 
 
-                <nav className='mt-4 flex-grow space-y-2'>
+                <nav className='mt-4 grow space-y-2'>
                     {
                         SIDEBAR_NAV_ITEMS.map((item) => (
                             <NavLink
