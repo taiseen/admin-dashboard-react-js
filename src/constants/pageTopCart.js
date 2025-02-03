@@ -1,4 +1,5 @@
-import { AlertTriangle, BarChart2, DollarSign, Package, ShoppingBag, TrendingUp, Users, Zap } from "lucide-react";
+import { AlertTriangle, BarChart2, Package, TrendingUp, Users, Zap } from "lucide-react";
+import { CheckCircle, Clock, DollarSign, ShoppingBag } from "lucide-react";
 import { UserCheck, UserPlus, UsersIcon, UserX } from "lucide-react";
 
 export const overviewPageTopCart = [
@@ -82,11 +83,32 @@ export const usersPageTopCart = [
     },
 ];
 
+export const orderPageTopCart = [
+    {
+        name: 'Total Orders',
+        icon: ShoppingBag,
+        value: 1234,
+        color: '#6366F1',
+    },
+    {
+        name: 'Pending Orders',
+        icon: Clock,
+        value: 56,
+        color: '#F59E0B',
+    },
+    {
+        name: 'Completed Orders',
+        icon: CheckCircle,
+        value: 1178,
+        color: '#10B981',
+    },
+    {
+        name: 'Total Revenue',
+        icon: DollarSign,
+        value: "$98,765",
+        color: '#EF4444',
+    },
+];
 
-// export const productsPageTopCart = []
-// export const productsPageTopCart = []
-// export const productsPageTopCart = []
-// export const productsPageTopCart = []
-// export const productsPageTopCart = []
-// export const productsPageTopCart = []
-// export const productsPageTopCart = []
+// export const salesPageTopCart = []
+// export const analyticsPageTopCart = []
