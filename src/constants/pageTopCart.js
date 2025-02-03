@@ -1,4 +1,5 @@
 import { AlertTriangle, BarChart2, DollarSign, Package, ShoppingBag, TrendingUp, Users, Zap } from "lucide-react";
+import { UserCheck, UserPlus, UsersIcon, UserX } from "lucide-react";
 
 export const overviewPageTopCart = [
     {
@@ -53,6 +54,34 @@ export const productsPageTopCart = [
         color: '#EF4444',
     },
 ];
+
+export const usersPageTopCart = [
+    {
+        name: 'Total Users',
+        icon: UsersIcon,
+        value: 152845,
+        color: '#6366F1',
+    },
+    {
+        name: 'New Users Today',
+        icon: UserPlus,
+        value: 243,
+        color: '#10B981',
+    },
+    {
+        name: 'Active Users',
+        icon: UserCheck,
+        value: 98520,
+        color: '#F59E0B',
+    },
+    {
+        name: 'Churn Rate',
+        icon: UserX,
+        value: '2.4%',
+        color: '#EF4444',
+    },
+];
+
 
 // export const productsPageTopCart = []
 // export const productsPageTopCart = []

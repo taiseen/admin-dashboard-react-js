@@ -15,7 +15,9 @@ const TopCart = ({ obj }) => {
                     {name}
                 </span>
 
-                <p className='mt-1 text-3xl font-semibold text-gray-100'>{value}</p>
+                <p className='mt-1 text-3xl font-semibold text-gray-100'>
+                    {value.toLocaleString ? value.toLocaleString() : value}
+                </p>
             </div>
         </motion.div>
     );

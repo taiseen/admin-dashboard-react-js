@@ -9,8 +9,7 @@ yarn dev
 ## Dependence:-
 
 - yarn create vite . --template react
-- yarn add -D tailwindcss postcss autoprefixer
-- npx tailwindcss init -p
+- yarn add tailwindcss @tailwindcss/vite
 
 - --------------------------------
 
