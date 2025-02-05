@@ -1,4 +1,4 @@
-import { AlertTriangle, BarChart2, Package, TrendingUp, Users, Zap } from "lucide-react";
+import { AlertTriangle, BarChart2, Eye, Package, TrendingUp, Users, Zap } from "lucide-react";
 import { CreditCard, CheckCircle, Clock, DollarSign, ShoppingBag } from "lucide-react";
 import { ShoppingCart, UserCheck, UserPlus, UsersIcon, UserX } from "lucide-react";
 
@@ -137,4 +137,32 @@ export const salesPageTopCart = [
     },
 ]
 
-// export const analyticsPageTopCart = []
+export const analyticsPageTopCart = [
+    { name: "Revenue", value: "$1,234,567", change: 12.5, icon: DollarSign },
+    { name: "Users", value: "45,678", change: 8.3, icon: Users },
+    { name: "Orders", value: "9,876", change: -3.2, icon: ShoppingBag },
+    { name: "Page Views", value: "1,234,567", change: 15.7, icon: Eye },
+];
+
+export const analyticsInsights = [
+    {
+        icon: TrendingUp,
+        color: "text-green-500",
+        insight: "Revenue is up 15% compared to last month, driven primarily by a successful email campaign.",
+    },
+    {
+        icon: Users,
+        color: "text-blue-500",
+        insight: "Customer retention has improved by 8% following the launch of the new loyalty program.",
+    },
+    {
+        icon: ShoppingBag,
+        color: "text-purple-500",
+        insight: 'Product category "Electronics" shows the highest growth potential based on recent market trends.',
+    },
+    {
+        icon: DollarSign,
+        color: "text-yellow-500",
+        insight: "Optimizing pricing strategy could potentially increase overall profit margins by 5-7%.",
+    },
+];
