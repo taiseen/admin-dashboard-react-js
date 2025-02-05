@@ -1,6 +1,6 @@
 import { AlertTriangle, BarChart2, Package, TrendingUp, Users, Zap } from "lucide-react";
-import { CheckCircle, Clock, DollarSign, ShoppingBag } from "lucide-react";
-import { UserCheck, UserPlus, UsersIcon, UserX } from "lucide-react";
+import { CreditCard, CheckCircle, Clock, DollarSign, ShoppingBag } from "lucide-react";
+import { ShoppingCart, UserCheck, UserPlus, UsersIcon, UserX } from "lucide-react";
 
 export const overviewPageTopCart = [
     {
@@ -110,5 +110,31 @@ export const orderPageTopCart = [
     },
 ];
 
-// export const salesPageTopCart = []
+export const salesPageTopCart = [
+    {
+        name: 'Total Revenue',
+        icon: DollarSign,
+        value: "$1,234,567",
+        color: '#6366F1',
+    },
+    {
+        name: 'Avg. Order Value',
+        icon: ShoppingCart,
+        value: "$78.90",
+        color: '#F59E0B',
+    },
+    {
+        name: 'Conversion Rate',
+        icon: TrendingUp,
+        value: "3.45%",
+        color: '#10B981',
+    },
+    {
+        name: 'Sales Growth',
+        icon: CreditCard,
+        value: "12.3%",
+        color: '#EF4444',
+    },
+]
+
 // export const analyticsPageTopCart = []
